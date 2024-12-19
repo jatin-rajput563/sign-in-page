@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.bg-img {
+    background-image: url(/assets/image/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-contant-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.main-head {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+}
+
+.Register-para {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.email-input {
+    outline: none;
+    background: #F5F8FF;
+    max-width: 252px;
+    gap: 10px;
+    border-radius: 6px;
+}
+
+.email-input {
+    outline: none;
+    background: #F5F8FF;
+    max-width: 252px;
+    gap: 10px;
+    border-radius: 6px;
+
+}
+
+.email-box {
+    max-width: 340px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px;
+    background: #F5F8FF;
+    border: 1px solid #E4EAF7;
+}
+
+.Password-box {
+    max-width: 340px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px;
+    background: #F5F8FF;
+    border: 1px solid #E4EAF7;
+}
+
+.pass-svg {
+    margin-left: 80px;
+}
+
+.Remember-para {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #62656D;
+}
+
+.Forgot-para {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #62656D;
+}
+
+.checkbox-para {
+    max-width: 340px;
+    justify-content: space-between;
+}
+
+.Sign-btn {
+    max-width: 340px;
+    padding: 14px 143px 14px 143px;
+    gap: 10px;
+    border-radius: 50px;
+    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.continue-para {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #9197A6;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.continue-line {
+    height: 2px;
+    width: 110px;
+    background-color: #C9CFDB;
+}
+
+.google-box {
+    width: 166px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px;
+    background: #FFFFFF;
+    border: 1px solid #E4EAF7;
+}
+
+.Google-para {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #62656D;
+}
+
+.mx-340 {
+    max-width: 340px;
+}
+
+.full-circle {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    max-width: 499px !important;
+}
+
+.card-img {
+    position: absolute;
+    top: 38%;
+    left: 76%;
+    z-index: 1;
+}
+
+.line-img {
+    position: absolute;
+    top: 33%;
+    left: 63%;
+}
+
+.Facebook-box {
+    width: 64px;
+    height: 64px;
+    padding: 9px;
+    border-radius: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000033;
+    position: absolute;
+    top: 30%;
+    left: 61%;
+}
+
+.linkedin-box {
+    width: 64px;
+    height: 64px;
+    padding: 9px;
+    border-radius: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000033;
+    position: absolute;
+    top: 44%;
+    left: 61%;
+}
+
+.instagram-box {
+    width: 64px;
+    height: 64px;
+    padding: 9px;
+    border-radius: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000033;
+    position: absolute;
+    top: 59%;
+    left: 61%;
+}
+
+.twiter-box {
+    width: 64px;
+    height: 64px;
+    padding: 9px;
+    border-radius: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000033;
+    position: absolute;
+    top: 72%;
+    left: 61%;
+}
+
+@media (max-width:576px) {
+    .full-circle {
+        display: none;
+    }
+
+    .Sign-btn {
+        max-width: 302px;
+    }
+
+    .text-md-center {
+        text-align: center;
+    }
+
+    .full-circle {
+        max-width: 325px !important;
+    }
+
+    .card-img {
+        max-width: 261px !important;
+        position: absolute !important;
+        top: -85px !important;
+        left: 2px !important;
+    }
+
+    .line-img {
+        display: none;
+    }
+
+    .Facebook-box {
+        position: absolute !important;
+        top: 168px !important;
+    }
+
+    .linkedin-box {
+        position: absolute !important;
+        top: 169px !important;
+        left: 72px !important;
+    }
+
+    .instagram-box {
+        position: absolute !important;
+        top: 169px !important;
+        left: 141px !important;
+    }
+
+    .twiter-box {
+        position: absolute !important;
+        top: 169px !important;
+        left: 210px !important;
+    }
+
+}
+
+@media (max-width:992px) {
+    .blue-page {
+        position: absolute;
+        top: 100%;
+        left: 10%;
+    }
+
+    .full-circle {
+        max-width: 442px !important;
+    }
+
+    .card-img {
+        max-width: 242px;
+        position: absolute;
+        top: 109px;
+        left: 210px;
+    }
+
+    .line-img {
+        max-width: 163px;
+        position: absolute;
+        top: 94px;
+        left: 59px;
+    }
+
+    .Facebook-box {
+        position: absolute;
+        top: 69px;
+    }
+
+    .linkedin-box {
+        position: absolute;
+        top: 147px;
+    }
+
+    .instagram-box {
+        position: absolute;
+        top: 228px;
+    }
+
+    .twiter-box {
+        position: absolute;
+        top: 304px;
+    }
+
+}
