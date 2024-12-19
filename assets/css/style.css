@@ -326,7 +326,7 @@
     .card-img {
         max-width: 261px !important;
         position: absolute !important;
-        top: -85px !important;
+        top: 0px !important;
         left: 2px !important;
     }
 
@@ -336,24 +336,24 @@
 
     .Facebook-box {
         position: absolute !important;
-        top: 168px !important;
+        top: 250px !important;
     }
 
     .linkedin-box {
         position: absolute !important;
-        top: 169px !important;
+        top: 250px !important;
         left: 72px !important;
     }
 
     .instagram-box {
         position: absolute !important;
-        top: 169px !important;
+        top: 250px !important;
         left: 141px !important;
     }
 
     .twiter-box {
         position: absolute !important;
-        top: 169px !important;
+        top: 250px !important;
         left: 210px !important;
     }
 
